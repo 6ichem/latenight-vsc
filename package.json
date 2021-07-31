@@ -1,0 +1,41 @@
+{
+  "name": "Latenight",
+  "displayName": "Latenight",
+  "description": "VSC Dark Theme",
+  "publisher": "6ichem",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6ichem/latenight-vsc"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#090131b",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Dark Theme",
+    "aesthetic",
+    "dark",
+    "synth",
+    "night",
+    "midnight",
+    "late night",
+    "latenight"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Latenight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Latenight-color-theme.json"
+      }
+    ]
+  }
+}
